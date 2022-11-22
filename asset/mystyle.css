@@ -25,17 +25,12 @@
     
 }
 
-hmtl{
-    font-size: 62.5%;
-    overflow-x: hidden;
-    scroll-behavior: smooth;
-    scroll-padding-top: 7rem;
-}
 
+/* body */
 body {
     background: beige;
 }
-
+/* button */
 .btn{
     margin-top: 1rem;
     display: inline-block;
@@ -70,7 +65,7 @@ section{
     padding: 2rem 9%;
     background: rgb(250, 221, 180);
     box-shadow: gray;
-
+    height: 8vw;
     
 }
 
@@ -158,6 +153,7 @@ section{
     width:30rem ;
     background: #fff;
     overflow: scroll;
+    height: 35vw;
 }
 
 .header .shopping-cart.active{
@@ -276,11 +272,6 @@ section{
 
 
 
-
-
-
-
-
 .home{
     display: flex;
     align-items: center;
@@ -396,9 +387,6 @@ section{
     line-height: 1.8;
     padding:1rem 0;
 }
-
-
-
 
 /* footer */
 .footer{
@@ -539,65 +527,7 @@ section{
 }
 
 
-.blogs .box-container{
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
-    gap:1.5rem;
-}
 
-.blogs .box-container .box{
-    overflow: hidden;
-    border-radius: .5rem;
-    box-shadow: var(--box-shadow);
-    background:#fff;
-}
-
-.blogs .box-container .box img{
-    height:25rem;
-    width:100%;
-    object-fit: cover;
-}
-
-.blogs .box-container .box .content{
-    padding:2rem;
-}
-
-.blogs .box-container .box .content .icons{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding-bottom: 1.5rem;
-    margin-bottom: 1rem;
-    border-bottom: var(--border);
-}
-
-.blogs .box-container .box .content .icons a{
-    color:var(--light-color);
-    font-size: 1.5rem;
-}
-
-.blogs .box-container .box .content .icons a:hover{
-    color:var(--black);
-}
-
-.blogs .box-container .box .content .icons a i{
-    color:var(--orange);
-    padding-right: .5rem;
-}
-
-.blogs .box-container .box .content h3{
-    line-height: 1.8;
-    color:var(--black);
-    font-size: 2.2rem;
-    padding:.5rem 0;
-}
-
-.blogs .box-container .box .content p{
-    line-height: 1.8;
-    color:var(--light-color);
-    font-size: 1.5rem;
-    padding:.5rem 0;
-}
 
 /* media queries  */
 
